@@ -1,0 +1,18 @@
+Build.PL
+cpanfile
+cpanfile.snapshot
+lib/Catmandu/Activiti.pm
+lib/Catmandu/Importer/Activiti/HistoricProcessInstance.pm
+lib/Catmandu/Importer/Activiti/HistoricTask.pm
+lib/Catmandu/Importer/Activiti/RuntimeProcessInstance.pm
+lib/Catmandu/Importer/Activiti/RuntimeTask.pm
+lib/Catmandu/Store/Activiti/HistoricProcessInstance.pm
+MANIFEST			This list of files
+t/00-load.t
+test/historic_process_instances.pl
+test/runtime_process_instances.pl
+test/search_historic_process_instances.pl
+Makefile.PL
+LICENSE
+META.yml
+META.json

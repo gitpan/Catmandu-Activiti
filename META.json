@@ -1,0 +1,69 @@
+{
+   "abstract" : "Catmandu module for Activiti",
+   "author" : [
+      "Nicolas Franck <nicolas.franck@ugent.be>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4203",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Catmandu-Activiti",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Software::License" : "0",
+            "Test::Exception" : "0",
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.42"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Activiti::Rest::Client" : "0.1",
+            "Carp" : "0",
+            "Catmandu" : "0.8014",
+            "perl" : "v5.10.0"
+         }
+      }
+   },
+   "provides" : {
+      "Catmandu::Activiti" : {
+         "file" : "lib/Catmandu/Activiti.pm",
+         "version" : "0.1"
+      },
+      "Catmandu::Importer::Activiti::HistoricProcessInstance" : {
+         "file" : "lib/Catmandu/Importer/Activiti/HistoricProcessInstance.pm"
+      },
+      "Catmandu::Importer::Activiti::HistoricTask" : {
+         "file" : "lib/Catmandu/Importer/Activiti/HistoricTask.pm"
+      },
+      "Catmandu::Importer::Activiti::RuntimeProcessInstance" : {
+         "file" : "lib/Catmandu/Importer/Activiti/RuntimeProcessInstance.pm"
+      },
+      "Catmandu::Importer::Activiti::RuntimeTask" : {
+         "file" : "lib/Catmandu/Importer/Activiti/RuntimeTask.pm"
+      },
+      "Catmandu::Store::Activiti::HistoricProcessInstance" : {
+         "file" : "lib/Catmandu/Store/Activiti/HistoricProcessInstance.pm"
+      },
+      "Catmandu::Store::Activiti::HistoricProcessInstance::Bag" : {
+         "file" : "lib/Catmandu/Store/Activiti/HistoricProcessInstance.pm"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.1"
+}
