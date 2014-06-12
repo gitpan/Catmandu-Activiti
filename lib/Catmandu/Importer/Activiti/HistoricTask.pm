@@ -4,6 +4,8 @@ use Catmandu::Util qw(:is :check :array);
 use Activiti::Rest::Client;
 use Moo;
 
+our $VERSION = "0.11";
+
 with 'Catmandu::Importer';
 
 has url => (

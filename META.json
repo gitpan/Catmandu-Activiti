@@ -38,25 +38,23 @@
    "provides" : {
       "Catmandu::Activiti" : {
          "file" : "lib/Catmandu/Activiti.pm",
-         "version" : "0.1"
+         "version" : "0.11"
       },
       "Catmandu::Importer::Activiti::HistoricProcessInstance" : {
-         "file" : "lib/Catmandu/Importer/Activiti/HistoricProcessInstance.pm"
+         "file" : "lib/Catmandu/Importer/Activiti/HistoricProcessInstance.pm",
+         "version" : "0.11"
       },
       "Catmandu::Importer::Activiti::HistoricTask" : {
-         "file" : "lib/Catmandu/Importer/Activiti/HistoricTask.pm"
+         "file" : "lib/Catmandu/Importer/Activiti/HistoricTask.pm",
+         "version" : "0.11"
       },
       "Catmandu::Importer::Activiti::RuntimeProcessInstance" : {
-         "file" : "lib/Catmandu/Importer/Activiti/RuntimeProcessInstance.pm"
+         "file" : "lib/Catmandu/Importer/Activiti/RuntimeProcessInstance.pm",
+         "version" : "0.11"
       },
       "Catmandu::Importer::Activiti::RuntimeTask" : {
-         "file" : "lib/Catmandu/Importer/Activiti/RuntimeTask.pm"
-      },
-      "Catmandu::Store::Activiti::HistoricProcessInstance" : {
-         "file" : "lib/Catmandu/Store/Activiti/HistoricProcessInstance.pm"
-      },
-      "Catmandu::Store::Activiti::HistoricProcessInstance::Bag" : {
-         "file" : "lib/Catmandu/Store/Activiti/HistoricProcessInstance.pm"
+         "file" : "lib/Catmandu/Importer/Activiti/RuntimeTask.pm",
+         "version" : "0.11"
       }
    },
    "release_status" : "stable",
@@ -65,5 +63,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.1"
+   "version" : "0.11"
 }

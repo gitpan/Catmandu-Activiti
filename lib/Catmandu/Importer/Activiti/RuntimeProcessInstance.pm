@@ -4,6 +4,8 @@ use Catmandu::Util qw(:is :check :array);
 use Activiti::Rest::Client;
 use Moo;
 
+our $VERSION = "0.11";
+
 with 'Catmandu::Importer';
 
 has url => (
@@ -44,10 +46,12 @@ sub generator {
         return if $start >= $total;
       }
 
-      my $res = $activiti->process_instances(
-        %$params,
-        start => $start,
-        size => $size
+      my $res = $activiti->query_process_instances(
+        content => {
+          %$params,
+          start => $start,
+          size => $size
+        }
       )->parsed_content;
 
       $total = $res->{total};
